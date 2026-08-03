@@ -5,13 +5,10 @@ const employees = [
     {name : "Tom", department : "Sales", salary : 30000}
 ];
 
-let highestSalary = employees[0].salary;
-
 let highestPaidemployee = employees[0];
 
 for (const employee of employees) {
-    if (employee.salary > highestSalary) {
-        highestSalary = employee.salary;
+    if (employee.salary > highestPaidemployee.salary) {
         highestPaidemployee = employee; 
     }
 }
