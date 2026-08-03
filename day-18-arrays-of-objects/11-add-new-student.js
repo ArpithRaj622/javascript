@@ -4,6 +4,6 @@ const students = [
     {name: "Arpith Raj", age: 26, course: "MCA" }
 ];
 
-students.push({name : "Kiran", age: "22", course: "BCA"});
+students.push({name : "Kiran", age: 22, course: "BCA"});
 
 console.log(students);
