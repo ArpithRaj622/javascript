@@ -4,17 +4,13 @@ const students = [
     {name: "Arpith Raj", age: 26, course: "MCA" }
 ];
 
-let oldestAge = 0;
+let oldestStudent = students[0];
 
 for (const student of students) {
-    if (student.age > oldestAge) {
-        oldestAge = student.age;
+    if (student.age > oldestStudent.age) {
+        oldestStudent = student;
     }
 }
 
-for (const student of students) {
-    if (student.age === oldestAge) {
-        console.log(student.name);
-        console.log(student.age);
-    }
-}
+console.log(oldestStudent.name);
+console.log(oldestStudent.age);
