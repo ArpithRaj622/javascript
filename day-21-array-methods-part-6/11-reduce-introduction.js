@@ -1,0 +1,7 @@
+const numbers = [5, 10, 15, 20];
+
+const totalSum = numbers.reduce((sum, number) => {
+    return sum + number;
+}, 0);
+
+console.log(totalSum);
