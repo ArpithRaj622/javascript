@@ -1,5 +1,5 @@
 function getWeather() {
-    return new Promise((resolve, rejsect) => {
+    return new Promise((resolve, reject) => {
         setTimeout(() => {
             resolve("Weather data received");
         }, 2000);
